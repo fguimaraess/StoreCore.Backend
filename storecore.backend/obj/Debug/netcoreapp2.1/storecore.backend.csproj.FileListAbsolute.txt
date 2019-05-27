@@ -1,0 +1,14 @@
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\storecore.backend.deps.json
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\storecore.backend.runtimeconfig.json
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\storecore.backend.runtimeconfig.dev.json
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\storecore.backend.dll
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\storecore.backend.pdb
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.csprojAssemblyReference.cache
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.csproj.CoreCompileInputs.cache
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.RazorAssemblyInfo.cache
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.RazorAssemblyInfo.cs
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.AssemblyInfoInputs.cache
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.AssemblyInfo.cs
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.RazorTargetAssemblyInfo.cache
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.dll
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.pdb

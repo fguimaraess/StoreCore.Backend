@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storecore.backend", "storecore.backend\storecore.backend.csproj", "{2805C486-6F69-48CF-8A4D-72D572821642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DataAccess\DAL.csproj", "{6CA95FDD-7443-4C9C-A796-B5685233508D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2805C486-6F69-48CF-8A4D-72D572821642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2805C486-6F69-48CF-8A4D-72D572821642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2805C486-6F69-48CF-8A4D-72D572821642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2805C486-6F69-48CF-8A4D-72D572821642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA95FDD-7443-4C9C-A796-B5685233508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA95FDD-7443-4C9C-A796-B5685233508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA95FDD-7443-4C9C-A796-B5685233508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA95FDD-7443-4C9C-A796-B5685233508D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6A0730F-CAA4-4B42-8856-5283F3C5CCFC}
+	EndGlobalSection
+EndGlobal
