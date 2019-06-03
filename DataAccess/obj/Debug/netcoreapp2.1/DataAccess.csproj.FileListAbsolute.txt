@@ -1,0 +1,9 @@
+C:\Projetos\storecore.backend\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.deps.json
+C:\Projetos\storecore.backend\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Projetos\storecore.backend\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Projetos\storecore.backend\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csprojAssemblyReference.cache
+C:\Projetos\storecore.backend\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Projetos\storecore.backend\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfoInputs.cache
+C:\Projetos\storecore.backend\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfo.cs
+C:\Projetos\storecore.backend\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.dll
+C:\Projetos\storecore.backend\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.pdb
