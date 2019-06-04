@@ -1,0 +1,9 @@
+C:\projetos\storecore.backend\DTO\bin\Release\netcoreapp2.1\DTO.deps.json
+C:\projetos\storecore.backend\DTO\bin\Release\netcoreapp2.1\DTO.dll
+C:\projetos\storecore.backend\DTO\bin\Release\netcoreapp2.1\DTO.pdb
+C:\projetos\storecore.backend\DTO\obj\Release\netcoreapp2.1\DTO.csprojAssemblyReference.cache
+C:\projetos\storecore.backend\DTO\obj\Release\netcoreapp2.1\DTO.csproj.CoreCompileInputs.cache
+C:\projetos\storecore.backend\DTO\obj\Release\netcoreapp2.1\DTO.AssemblyInfoInputs.cache
+C:\projetos\storecore.backend\DTO\obj\Release\netcoreapp2.1\DTO.AssemblyInfo.cs
+C:\projetos\storecore.backend\DTO\obj\Release\netcoreapp2.1\DTO.dll
+C:\projetos\storecore.backend\DTO\obj\Release\netcoreapp2.1\DTO.pdb
