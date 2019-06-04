@@ -12960,11 +12960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
+      "projectUniqueName": "C:\\Projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
       "projectName": "storecore.backend",
-      "projectPath": "C:\\projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
+      "projectPath": "C:\\Projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
       "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\storecore.backend\\storecore.backend\\obj\\",
+      "outputPath": "C:\\Projetos\\storecore.backend\\storecore.backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13010,7 +13010,6 @@
             "version": "[2.1.11, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
