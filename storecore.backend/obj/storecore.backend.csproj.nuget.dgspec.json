@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj": {}
+    "C:\\Projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj": {
+    "C:\\Projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
+        "projectUniqueName": "C:\\Projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
         "projectName": "storecore.backend",
-        "projectPath": "C:\\projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
+        "projectPath": "C:\\Projetos\\storecore.backend\\storecore.backend\\storecore.backend.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\storecore.backend\\storecore.backend\\obj\\",
+        "outputPath": "C:\\Projetos\\storecore.backend\\storecore.backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -70,11 +70,7 @@
               "target": "Package",
               "version": "[2.1.9, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.10.8, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[2.1.0, )"
             },
