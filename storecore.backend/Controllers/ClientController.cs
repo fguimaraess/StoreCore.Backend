@@ -2,48 +2,47 @@
 using DataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace storecore.backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
-    public class ClientController : InjectedController
+    public class ClientController : ControllerBase
     {
-        public ClientController(StoreContext context) : base(context) { }
+        private readonly StoreContext _context;
+        public ClientController(StoreContext context)
+        {
+            _context = context;
 
-        [HttpGet("{id:int}")]
+        }
+
+        [Route("client/{id}")]
+        [HttpGet]
         public async Task<IActionResult> GetClient(int id)
         {
-            var department = await db.Clients.FindAsync(id);
-            if (department == default(Client))
-            {
+            var client = _context.Clients.Find(id);
+
+            if (client == null)
                 return NotFound();
-            }
-            return Ok(department);
+
+            return Ok(client);
         }
 
         // Add a department to db.
+        [Route("client")]
         [HttpPost]
         public async Task<IActionResult> AddClient([FromBody] Client client)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            await db.AddAsync(client);
-            await db.SaveChangesAsync();
-            return Ok(client.Id);
-        }
-    }
+            _context.Clients.Add(new Client { Name = client.Name, BirthDate = client.BirthDate, Email = client.Email });
+            var clientSaved =_context.SaveChanges();
 
-    public class InjectedController : ControllerBase
-    {
-        protected readonly StoreContext db;
+            if (Convert.ToBoolean(clientSaved))
+                client.Id = _context.Clients.Last().Id;
 
-        public InjectedController(StoreContext context)
-        {
-            db = context;
+            return Ok(client);
         }
     }
 }

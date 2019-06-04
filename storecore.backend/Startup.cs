@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using storecore.backend.Data;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace storecore.backend
@@ -28,12 +27,19 @@ namespace storecore.backend
                 c.SwaggerDoc("v1", new Info { Title = "StoreCore API", Version = "v1" });
             });
 
-            //services.AddDbContext<StoreContext>(ops => ops.UseMySql(@"Server=localhost; Database=StoreCore; Uid=user_name_1; Pwd=my-secret-pw"));
+            //services.AddEntityFrameworkNpgsql()
+            //    .AddDbContext<StoreContext>()
+            //    .BuildServiceProvider();
 
-            services.AddDbContext<StoreContext>(ops =>
+            services.AddDbContext<StoreContext>(options =>
             {
-                ops.UseInMemoryDatabase("Store");
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            //services.AddDbContext<StoreContext>(ops =>
+            //{
+            //    ops.UseInMemoryDatabase("Store");
+            //});
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
