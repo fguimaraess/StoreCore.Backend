@@ -1,4 +1,4 @@
-﻿using DataAccess;
+﻿using DAL.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -26,11 +26,7 @@ namespace storecore.backend
             {
                 c.SwaggerDoc("v1", new Info { Title = "StoreCore API", Version = "v1" });
             });
-
-            //services.AddEntityFrameworkNpgsql()
-            //    .AddDbContext<StoreContext>()
-            //    .BuildServiceProvider();
-
+            
             services.AddDbContext<StoreContext>(options =>
             {
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
@@ -41,6 +37,13 @@ namespace storecore.backend
             //    ops.UseInMemoryDatabase("Store");
             //});
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowMyOrigin", builder =>
+                {
+                    builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                });
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -60,6 +63,7 @@ namespace storecore.backend
             });
 
             //context.Database.Migrate();
+            app.UseCors("AllowMyOrigin");
             app.UseMvc();
         }
     }

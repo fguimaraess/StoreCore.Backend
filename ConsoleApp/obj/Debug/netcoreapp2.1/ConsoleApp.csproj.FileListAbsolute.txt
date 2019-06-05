@@ -1,0 +1,11 @@
+C:\Projetos\storecore.backend\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.csprojAssemblyReference.cache
+C:\Projetos\storecore.backend\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Projetos\storecore.backend\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Projetos\storecore.backend\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.AssemblyInfo.cs
+C:\Projetos\storecore.backend\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.deps.json
+C:\Projetos\storecore.backend\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.runtimeconfig.json
+C:\Projetos\storecore.backend\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.runtimeconfig.dev.json
+C:\Projetos\storecore.backend\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.dll
+C:\Projetos\storecore.backend\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.pdb
+C:\Projetos\storecore.backend\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.dll
+C:\Projetos\storecore.backend\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.pdb

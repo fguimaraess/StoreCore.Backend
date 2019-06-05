@@ -1,5 +1,6 @@
-﻿using DataAccess;
-using DataAccess.Models;
+﻿using DAL;
+using DAL.Context;
+using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -31,6 +32,18 @@ namespace storecore.backend.Controllers
             return Ok(client);
         }
 
+        [Route("client/all")]
+        [HttpGet]
+        public async Task<IActionResult> GetAllClients()
+        {
+            var clients = _context.Clients.ToList();
+
+            if (clients.Count() == 0)
+                return NotFound();
+
+            return Ok(clients);
+        }
+
         // Add a department to db.
         [Route("client")]
         [HttpPost]
@@ -43,6 +56,21 @@ namespace storecore.backend.Controllers
                 client.Id = _context.Clients.Last().Id;
 
             return Ok(client);
+        }
+
+        [Route("client/{id}")]
+        [HttpDelete]
+        public async Task<IActionResult> RemoveClient(int id)
+        {
+
+            var client = _context.Clients.Find(id);
+
+            if (client == null)
+                return NotFound();
+            _context.Clients.Remove(client);
+            _context.SaveChanges();
+
+            return Ok();
         }
     }
 }

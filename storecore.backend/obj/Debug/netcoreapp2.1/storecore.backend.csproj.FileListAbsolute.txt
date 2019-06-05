@@ -12,3 +12,6 @@ C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecor
 C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.RazorTargetAssemblyInfo.cache
 C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.dll
 C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.pdb
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\DAL.dll
+C:\Projetos\storecore.backend\storecore.backend\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Projetos\storecore.backend\storecore.backend\obj\Debug\netcoreapp2.1\storecore.backend.csproj.CopyComplete
