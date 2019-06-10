@@ -4704,7 +4704,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "DAL/1.0.0": {
+      "Store.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
@@ -4718,10 +4718,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.1.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/Store.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/Store.DAL.dll": {}
         }
       }
     }
@@ -12811,15 +12811,14 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "DAL/1.0.0": {
+    "Store.DAL/1.0.0": {
       "type": "project",
-      "path": "../DAL/DAL.csproj",
-      "msbuildProject": "../DAL/DAL.csproj"
+      "path": "../DAL/Store.DAL.csproj",
+      "msbuildProject": "../DAL/Store.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "DAL >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Cors >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -12828,6 +12827,7 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.4.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.1.0",
+      "Store.DAL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 4.0.1"
     ]
   },
@@ -12861,8 +12861,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projetos\\storecore.backend\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Projetos\\storecore.backend\\DAL\\DAL.csproj"
+            "C:\\Projetos\\storecore.backend\\DAL\\Store.DAL.csproj": {
+              "projectPath": "C:\\Projetos\\storecore.backend\\DAL\\Store.DAL.csproj"
             }
           }
         }

@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v2.1": {
       "storecore.backend/1.0.0": {
         "dependencies": {
-          "DAL": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Cors": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -33,6 +32,7 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.4.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.1.0",
+          "Store.DAL": "1.0.0",
           "Swashbuckle.AspNetCore": "4.0.1"
         },
         "runtime": {
@@ -745,7 +745,7 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
-      "DAL/1.0.0": {
+      "Store.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore": "2.1.1",
           "Microsoft.AspNetCore.Cors": "2.1.1",
@@ -757,10 +757,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.1.0"
         },
         "runtime": {
-          "DAL.dll": {}
+          "Store.DAL.dll": {}
         },
         "compile": {
-          "DAL.dll": {}
+          "Store.DAL.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3918,7 +3918,7 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-    "DAL/1.0.0": {
+    "Store.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

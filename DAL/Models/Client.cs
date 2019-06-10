@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace DAL.Models
@@ -12,5 +13,4 @@ namespace DAL.Models
         public DateTime BirthDate { get; set; }
         public string Email { get; set; }
     }
-       
 }

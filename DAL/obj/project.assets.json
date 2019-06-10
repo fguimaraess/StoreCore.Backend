@@ -8410,9 +8410,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\storecore.backend\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Projetos\\storecore.backend\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Projetos\\storecore.backend\\DAL\\Store.DAL.csproj",
+      "projectName": "Store.DAL",
+      "projectPath": "C:\\Projetos\\storecore.backend\\DAL\\Store.DAL.csproj",
       "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\storecore.backend\\DAL\\obj\\",
       "projectStyle": "PackageReference",

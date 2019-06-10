@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ConsoleApp",
+    "\\DAL",
+    "\\DAL\\Context",
+    "\\DAL\\Migrations",
+    "\\DAL\\Models",
+    "\\DTO",
+    "\\DTO\\Client",
+    "\\storecore.backend",
+    "\\storecore.backend\\Controllers"
+  ],
+  "SelectedNode": "\\storecore.backend\\Dockerfile",
+  "PreviewInSolutionExplorer": false
+}

@@ -8,11 +8,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "storecore.backend", "storec
 		{86860C01-445C-4F9D-805F-F3FF159687D0} = {86860C01-445C-4F9D-805F-F3FF159687D0}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{1D12B9A4-8E97-4BD8-B12E-D2E78464E2CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.DTO", "DTO\Store.DTO.csproj", "{1D12B9A4-8E97-4BD8-B12E-D2E78464E2CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{86860C01-445C-4F9D-805F-F3FF159687D0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{25B55F7F-105E-4D3B-B4E0-DF9E47188F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.DAL", "DAL\Store.DAL.csproj", "{86860C01-445C-4F9D-805F-F3FF159687D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +30,6 @@ Global
 		{86860C01-445C-4F9D-805F-F3FF159687D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86860C01-445C-4F9D-805F-F3FF159687D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86860C01-445C-4F9D-805F-F3FF159687D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25B55F7F-105E-4D3B-B4E0-DF9E47188F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25B55F7F-105E-4D3B-B4E0-DF9E47188F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25B55F7F-105E-4D3B-B4E0-DF9E47188F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25B55F7F-105E-4D3B-B4E0-DF9E47188F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
