@@ -1,0 +1,17 @@
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.API.deps.json
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.API.runtimeconfig.json
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.API.runtimeconfig.dev.json
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.API.dll
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.API.pdb
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.DAL.dll
+C:\projetos\storecore.backend\Store.API\bin\Release\netcoreapp2.1\Store.DAL.pdb
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.csprojAssemblyReference.cache
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.csproj.CoreCompileInputs.cache
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.RazorAssemblyInfo.cache
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.RazorAssemblyInfo.cs
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.AssemblyInfoInputs.cache
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.AssemblyInfo.cs
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.RazorTargetAssemblyInfo.cache
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.csproj.CopyComplete
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.dll
+C:\projetos\storecore.backend\Store.API\obj\Release\netcoreapp2.1\Store.API.pdb
